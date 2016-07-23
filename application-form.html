@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+    <title>Skills-HTML-CSS</title>
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <h2> Application Form </h2>
+    <div id="intro"> If you are interested in applying for a job with our company, 
+        please fill out the form below</div>
+    <br>
+    <form action="/application" method="POST">
+        <label for="field-first-name"> First name
+            <input id="field-first-name" type="text" name="first-name"></input>
+        <br>
+        <br>
+        <label for="field-last-name"> Last name
+            <input id="field-last-name" type="text" name="last-name"></input>
+        <br>
+        <br>
+        <label for="field-salary-req"> Salary Requirement:
+            <input id="field-salary-req" type="text" name="salary-req"></input>
+        <br>
+        <br>
+        <label for="app-dropdown"> Applying for: 
+            <select id="app-dropdown" name="applying-for">
+                <option value="software-engineer">Software Engineer</option>
+                <option value="qa-engineer">QA Engineer</option>
+                <option value="product-manager">Product Manager</option>
+            </select>
+        <br>
+        <br>
+        <label for="app-submit">
+            <input type="submit" id="app-submit" >
+    </form>
+    <br>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+/* Your CSS goes here */
+
+input[type="text"] {
+    background-color: yellow;
+}
+
+input[type="submit"] {
+    background-color: yellow;
+}
+
+#intro {
+    border: 5px solid;
+    margin: 5px;
+    padding: 5px;
+}
+
+#field-last-name {
+    font-weight: bold;
+}
